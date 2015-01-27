@@ -23,7 +23,7 @@
 *code* | int (400,401 etc.)
 *error_description* | string  (текст ошибки)
 *token* | string 
-*user_name* string
+*user_name* | string
 *age* | int
 
 
