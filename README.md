@@ -4,58 +4,11 @@
 
 ### Описание API  сервера
 
-**Авторизация(запрос):**
+[API  по пользователям] (users/README.md)
 
-Описание | Значение
------------- | -------------
-*url*  | http://domain.net/api/v1/users/auth/login
-*login* | string
-*password* | string
-*app_version* | string (пример 1.2.300)
-*os* | string (android/ios)
-*device* | string
-*lat* | string
-*lng* | string
+[API  по заявкам] (lots/README.md)
 
-
-**Авторизация(ответ):**
-
-Описание | Значение
------------- | -------------
-*status* | string (success/error)
-*code* | int (400,401 etc.)
-*error_description* | string  (текст ошибки)
-*token* | string 
-*user_name* | string
-*age* | int
-*еще какая-то дополнительная информация* | string
-
-**Данные о пользователе(запрос):**
-
-Описание | Значение
------------- | -------------
-*id_user* | int
-*token* | string
-
-
-**Данные о пользователе(ответ):**
-
-Описание | Значение
------------- | -------------
-*url* | http://domain.net/api/v1/users/id
-*name* | string
-*age* | int
-*rating* | float
-*location*  | string
-*photo* | string (ссылка на картинку)
-
-
-**Список пользователей(запрос):**
-
-Описание | Значение
------------- | -------------
-*url* | http://domain.net/api/v1/users
-*token* | string
+[API  по инвайтам] (invites/README.md)
 
 
 
