@@ -8,7 +8,7 @@
 
 Описание | Значение
 ------------ | -------------
-*url*  | http://domain.net/api/v1/user/auth/login
+*url*  | http://domain.net/api/v1/users/auth/login
 *login* | string
 *password* | string
 *app_version* | string (пример 1.2.300)
@@ -42,13 +42,20 @@
 
 Описание | Значение
 ------------ | -------------
-*url* | http://domain.net/api/v1/user/id
+*url* | http://domain.net/api/v1/users/id
 *name* | string
 *age* | int
 *rating* | float
 *location*  | string
 *photo* | string (ссылка на картинку)
 
+
+**Список пользователей(запрос):**
+
+Описание | Значение
+------------ | -------------
+*url* | http://domain.net/api/v1/users
+*token* | string
 
 
 
