@@ -4,11 +4,8 @@
 
 ### Описание API  сервера
 
-[API  по пользователям] (users/README.md)
+[Ссылка на документацию] (http://docs.barter1.apiary.io/)
 
-[API  по заявкам] (lots/README.md)
-
-[API  по инвайтам] (invites/README.md)
 
 
 
